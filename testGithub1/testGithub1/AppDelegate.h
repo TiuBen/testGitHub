@@ -7,10 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MainWindowController.h"
+#import "FirstWindowController.h"
+#import "ThirdWindowController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-@property (strong) MainWindowController *mainWindow;
-
+@property (strong) FirstWindowController *firstWC;
+@property (strong) NSWindowController *secondWC;
+@property (strong) ThirdWindowController *thirdWC;
 @end
 

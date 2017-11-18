@@ -11,23 +11,24 @@
 		2797107C1FBFD37C00FA6A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2797107B1FBFD37C00FA6A62 /* main.m */; };
 		2797107E1FBFD37C00FA6A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2797107D1FBFD37C00FA6A62 /* Assets.xcassets */; };
 		279710811FBFD37C00FA6A62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2797107F1FBFD37C00FA6A62 /* MainMenu.xib */; };
-		2797108A1FBFDDC000FA6A62 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279710891FBFDDC000FA6A62 /* MainWindowController.m */; };
-		2797108C1FBFE53500FA6A62 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2797108B1FBFE53500FA6A62 /* Window.xib */; };
-		2797108E1FBFE54600FA6A62 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2797108D1FBFE54600FA6A62 /* View.xib */; };
+		2797108A1FBFDDC000FA6A62 /* FirstWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279710891FBFDDC000FA6A62 /* FirstWindowController.m */; };
+		279710921FC0001000FA6A62 /* ThirdWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279710901FC0001000FA6A62 /* ThirdWindowController.m */; };
+		279710931FC0001000FA6A62 /* ThirdWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279710911FC0001000FA6A62 /* ThirdWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		279710741FBFD37C00FA6A62 /* testGithub1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGithub1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279710741FBFD37C00FA6A62 /* testWindowController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWindowController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279710771FBFD37C00FA6A62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		279710781FBFD37C00FA6A62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2797107B1FBFD37C00FA6A62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2797107D1FBFD37C00FA6A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279710801FBFD37C00FA6A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		279710821FBFD37C00FA6A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279710881FBFDDC000FA6A62 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = View/MainWindowController.h; sourceTree = "<group>"; };
-		279710891FBFDDC000FA6A62 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindowController.m; path = View/MainWindowController.m; sourceTree = "<group>"; };
-		2797108B1FBFE53500FA6A62 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
-		2797108D1FBFE54600FA6A62 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		279710881FBFDDC000FA6A62 /* FirstWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstWindowController.h; path = testGithub1/View/FirstWindowController.h; sourceTree = "<group>"; };
+		279710891FBFDDC000FA6A62 /* FirstWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstWindowController.m; path = testGithub1/View/FirstWindowController.m; sourceTree = "<group>"; };
+		2797108F1FC0001000FA6A62 /* ThirdWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdWindowController.h; path = testGithub1/View/ThirdWindowController.h; sourceTree = "<group>"; };
+		279710901FC0001000FA6A62 /* ThirdWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdWindowController.m; path = testGithub1/View/ThirdWindowController.m; sourceTree = "<group>"; };
+		279710911FC0001000FA6A62 /* ThirdWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThirdWindowController.xib; path = testGithub1/View/ThirdWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		2797106B1FBFD37B00FA6A62 = {
 			isa = PBXGroup;
 			children = (
+				279710941FC0001D00FA6A62 /* View */,
 				279710761FBFD37C00FA6A62 /* testGithub1 */,
 				279710751FBFD37C00FA6A62 /* Products */,
 			);
@@ -52,7 +54,7 @@
 		279710751FBFD37C00FA6A62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				279710741FBFD37C00FA6A62 /* testGithub1.app */,
+				279710741FBFD37C00FA6A62 /* testWindowController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,10 +68,6 @@
 				2797107F1FBFD37C00FA6A62 /* MainMenu.xib */,
 				279710821FBFD37C00FA6A62 /* Info.plist */,
 				2797107A1FBFD37C00FA6A62 /* Supporting Files */,
-				279710881FBFDDC000FA6A62 /* MainWindowController.h */,
-				279710891FBFDDC000FA6A62 /* MainWindowController.m */,
-				2797108B1FBFE53500FA6A62 /* Window.xib */,
-				2797108D1FBFE54600FA6A62 /* View.xib */,
 			);
 			path = testGithub1;
 			sourceTree = "<group>";
@@ -82,12 +80,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		279710941FC0001D00FA6A62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279710881FBFDDC000FA6A62 /* FirstWindowController.h */,
+				279710891FBFDDC000FA6A62 /* FirstWindowController.m */,
+				2797108F1FC0001000FA6A62 /* ThirdWindowController.h */,
+				279710901FC0001000FA6A62 /* ThirdWindowController.m */,
+				279710911FC0001000FA6A62 /* ThirdWindowController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		279710731FBFD37C00FA6A62 /* testGithub1 */ = {
+		279710731FBFD37C00FA6A62 /* testWindowController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 279710851FBFD37C00FA6A62 /* Build configuration list for PBXNativeTarget "testGithub1" */;
+			buildConfigurationList = 279710851FBFD37C00FA6A62 /* Build configuration list for PBXNativeTarget "testWindowController" */;
 			buildPhases = (
 				279710701FBFD37C00FA6A62 /* Sources */,
 				279710711FBFD37C00FA6A62 /* Frameworks */,
@@ -97,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = testGithub1;
+			name = testWindowController;
 			productName = testGithub1;
-			productReference = 279710741FBFD37C00FA6A62 /* testGithub1.app */;
+			productReference = 279710741FBFD37C00FA6A62 /* testWindowController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2797106F1FBFD37B00FA6A62 /* Build configuration list for PBXProject "testGithub1" */;
+			buildConfigurationList = 2797106F1FBFD37B00FA6A62 /* Build configuration list for PBXProject "testWindowController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				279710731FBFD37C00FA6A62 /* testGithub1 */,
+				279710731FBFD37C00FA6A62 /* testWindowController */,
 			);
 		};
 /* End PBXProject section */
@@ -140,10 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2797108E1FBFE54600FA6A62 /* View.xib in Resources */,
+				279710931FC0001000FA6A62 /* ThirdWindowController.xib in Resources */,
 				2797107E1FBFD37C00FA6A62 /* Assets.xcassets in Resources */,
 				279710811FBFD37C00FA6A62 /* MainMenu.xib in Resources */,
-				2797108C1FBFE53500FA6A62 /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2797107C1FBFD37C00FA6A62 /* main.m in Sources */,
+				279710921FC0001000FA6A62 /* ThirdWindowController.m in Sources */,
 				279710791FBFD37C00FA6A62 /* AppDelegate.m in Sources */,
-				2797108A1FBFDDC000FA6A62 /* MainWindowController.m in Sources */,
+				2797108A1FBFDDC000FA6A62 /* FirstWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2797106F1FBFD37B00FA6A62 /* Build configuration list for PBXProject "testGithub1" */ = {
+		2797106F1FBFD37B00FA6A62 /* Build configuration list for PBXProject "testWindowController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279710831FBFD37C00FA6A62 /* Debug */,
@@ -297,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		279710851FBFD37C00FA6A62 /* Build configuration list for PBXNativeTarget "testGithub1" */ = {
+		279710851FBFD37C00FA6A62 /* Build configuration list for PBXNativeTarget "testWindowController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279710861FBFD37C00FA6A62 /* Debug */,

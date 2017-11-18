@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "279710731FBFD37C00FA6A62"
-               BuildableName = "testGithub1.app"
-               BlueprintName = "testGithub1"
-               ReferencedContainer = "container:testGithub1.xcodeproj">
+               BuildableName = "testWindowController.app"
+               BlueprintName = "testWindowController"
+               ReferencedContainer = "container:testWindowController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "279710731FBFD37C00FA6A62"
-            BuildableName = "testGithub1.app"
-            BlueprintName = "testGithub1"
-            ReferencedContainer = "container:testGithub1.xcodeproj">
+            BuildableName = "testWindowController.app"
+            BlueprintName = "testWindowController"
+            ReferencedContainer = "container:testWindowController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "279710731FBFD37C00FA6A62"
-            BuildableName = "testGithub1.app"
-            BlueprintName = "testGithub1"
-            ReferencedContainer = "container:testGithub1.xcodeproj">
+            BuildableName = "testWindowController.app"
+            BlueprintName = "testWindowController"
+            ReferencedContainer = "container:testWindowController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "279710731FBFD37C00FA6A62"
-            BuildableName = "testGithub1.app"
-            BlueprintName = "testGithub1"
-            ReferencedContainer = "container:testGithub1.xcodeproj">
+            BuildableName = "testWindowController.app"
+            BlueprintName = "testWindowController"
+            ReferencedContainer = "container:testWindowController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

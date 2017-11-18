@@ -16,16 +16,37 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    
+    //First WindowController use manual code
     NSWindow *firstWindow=[[NSWindow alloc] initWithContentRect:NSMakeRect(0, 0, 400, 300)
-                                                     styleMask:NSTitledWindowMask|NSResizableWindowMask
+                                                     styleMask:NSResizableWindowMask|NSTitledWindowMask
                                                        backing:NSBackingStoreBuffered
                                                          defer:YES];
    
     [firstWindow setTitle:@"first Window"];
-    MainWindowController *mainWC=[[MainWindowController alloc] initWithWindow:firstWindow];
-    _mainWindow=mainWC;
-    [_mainWindow.window makeKeyAndOrderFront:nil];
+    FirstWindowController *mainWC=[[FirstWindowController alloc] initWithWindow:firstWindow];
+    _firstWC=mainWC;
+    [_firstWC.window makeKeyAndOrderFront:nil];
+    //This also is effective/
+//    [_firstWC showWindow:self];
+    
+    //SecondWindowController is default windowController
+    NSWindow *secondWindow=[[NSWindow alloc] initWithContentRect:NSMakeRect(0, 300, 400, 300)
+                                                      styleMask:NSTitledWindowMask|NSResizableWindowMask
+                                                        backing:NSBackingStoreBuffered
+                                                          defer:YES];
+    [secondWindow setTitle:@"second Window"];
+     _secondWC=[[NSWindowController alloc] initWithWindow:secondWindow];
+    [_secondWC.window makeKeyAndOrderFront:nil];
+    
+    //Third WindowController use a Xib file
+    _thirdWC=[[ThirdWindowController alloc] initWithWindowNibName:@"ThirdWindowController"];
+    [_thirdWC.contentViewController.view  setFrame:NSMakeRect(0, 600, 400, 300) ];
+    [_thirdWC.window makeKeyAndOrderFront:nil];
+    
+    //Test main and key.
+    [_firstWC.window makeMainWindow];
+    [_secondWC.window makeKeyWindow];
     
 }
 
