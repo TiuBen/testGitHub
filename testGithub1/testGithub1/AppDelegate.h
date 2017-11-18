@@ -7,9 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MainWindowController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+@property (strong) MainWindowController *mainWindow;
 
 @end
 
